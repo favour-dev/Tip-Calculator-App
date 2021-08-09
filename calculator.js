@@ -1,4 +1,5 @@
 document.getElementById("calculate").addEventListener('click', calculateTip)
+
 let serviceTip = 0;
 document.getElementById("five").addEventListener('click', () => serviceTip = 5)
 document.getElementById("ten").addEventListener('click', () => serviceTip = 10)
@@ -7,12 +8,11 @@ document.getElementById("twenty").addEventListener('click', () => serviceTip = 2
 document.getElementById("fifty").addEventListener('click', () => serviceTip = 50)
 document.getElementById("serviceCharge").addEventListener('keyup', () => serviceTip = document.getElementById('serviceCharge').value)
 
-
-
-// function updateServiceTip(){
-//     serviceTip = 5;
-//     console.log(`The value of service tip is ${serviceTip}`)
+// document.getElementsByClassName('profit-increase').onclick = changeColor;
+// function changeColor(){
+//     document.style.backgroundColor = "red"; 
 // }
+
 
 
 function calculateTip(){
