@@ -15,7 +15,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 .content{
     display: flex;
@@ -75,7 +75,7 @@ body{
     
 }
 .profit-increase::placeholder{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 85%);
 }
 .input-field::placeholder{
     color: hsl(172, 67%, 45%);
